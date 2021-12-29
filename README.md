@@ -1,6 +1,6 @@
 # thorlabs_lcc2415
 
-Basic python script for communicating with a Thorlabs LCC2415-VIS Multi-Wave Variable Retarder with Integrated Controller.
+Basic python module for communicating with a Thorlabs LCC2415-VIS Multi-Wave Variable Retarder with Integrated Controller.
 
 
 **Installation**
@@ -11,12 +11,12 @@ Installation of the Thorlabs software package (see reference) should not be requ
 
 Connect a Thorlabs LCC2415 to your computer. 
 
-Run test_LCC.py directly in the folder. This will perform several functions of the control_LCC.py script, such as automatically connecting to the LCC2415, set wavelength, get retardance, set retardance, etc.
+Run test_LCC.py directly in the folder. This will perform several functions of the control_LCC.py module, such as automatically connecting to the LCC2415, set wavelength, get retardance, set retardance, etc.
 
 
 **Information on Usage**
 
-Two different LCC2415 were used without any issues. control_LCC.py includes the most important functions, adapted from the C++ code (see LCC2415_Api.h) provided by Thorlabs (see reference). More functions can be included. To my knowledge the script is not directly compatible to other LC retarders.
+Two different LCC2415 were used without any issues. control_LCC.py includes the most important functions, adapted from the C++ code (see LCC2415_Api.h) provided by Thorlabs (see reference). More functions can be included. To my knowledge the module is not directly compatible to other LC retarders.
 
 
 **Known Issue**
