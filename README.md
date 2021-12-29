@@ -5,7 +5,7 @@ Basic python script for communicating with a Thorlabs LCC2415-VIS Multi-Wave Var
 
 **Installation**
 
-The package is based on the .dll's provided by Thorlabs (uart_library_ftdi32.dll and uart_library_ftdi64.dll). So it only works on Windows. So far no alternative known for Linux or Mac.
+The package is based on the .dll's provided by Thorlabs (uart_library_ftdi32.dll and uart_library_ftdi64.dll), so it only works on Windows. So far no alternative known for Linux or Mac.
 It should be possible to replace the .dll's with newer ones provided by Thorlabs.
 Installation of the Thorlabs software package (see reference) should not be required.
 
@@ -16,7 +16,7 @@ Run test_LCC.py directly in the folder. This will perform several functions of t
 
 **Information on Usage**
 
-I have used two different LCC2415 without any issues. The script includes several basic functions, adapted from the C++ code (see LCC2415_Api.h) provided by Thorlabs (see reference). More functions can be included. To my knowledge the script is not directly compatible to other LC retarders.
+Two different LCC2415 were used without any issues. control_LCC.py includes the most important functions, adapted from the C++ code (see LCC2415_Api.h) provided by Thorlabs (see reference). More functions can be included. To my knowledge the script is not directly compatible to other LC retarders.
 
 
 **Known Issue**
